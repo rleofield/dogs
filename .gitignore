@@ -1,0 +1,6 @@
+/.tmp/
+/Makefile
+/*.vcxproj.filters
+/*.vcxproj
+/*.pro.user
+/*.md~
