@@ -36,7 +36,7 @@ dalmatiner.h
 */
 
 
-namespace{
+namespace {
    void out( string s ) {
       cout << s << endl;
    }
