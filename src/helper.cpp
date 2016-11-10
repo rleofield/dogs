@@ -45,7 +45,7 @@ std::string readFile( const std::string& filename ) {
       char c = 0;
 
       while( !ifs.eof() ) {
-         c = ifs.get();
+         c = static_cast<char>(ifs.get());
 
          if( ifs.good() ) {
             data.push_back( c );
@@ -55,6 +55,7 @@ std::string readFile( const std::string& filename ) {
 
    return data;
 }
+
 
 bool writeLog( int line, const char* function, std::string content, bool trim ) {
 
